@@ -26,7 +26,7 @@ function App() {
       .catch((error) => {
         console.log("🚀 ~ file: App.js ~ line 22 ~ useEffect ~ error", error);
       });
-  }, []);
+  }, [accessToken]);
 
   return (
     <div className='App'>
